@@ -38,11 +38,11 @@ export default function () {
           return;
         }
       }
-
-      toast.error("get wallpapers failed");
+      console.log("get image failed: info ")
+      //toast.error("get image failed");
     } catch (e) {
-      console.log("get wallpapers failed: ", e);
-      toast.error("get wallpapers failed");
+      console.log("get image failed: ", e);
+      toast.error("get image failed");
     }
   };
 
@@ -54,9 +54,6 @@ export default function () {
     <div className="md:mt-16">
       <div className="max-w-3xl mx-auto">
         <Hero />
-        <div className="my-4 md:my-6">
-          <Producthunt />
-        </div>
         <div className="mx-auto my-4 flex max-w-lg justify-center">
           <Input wallpapers={wallpapers} setWallpapers={setWallpapers} />
         </div>

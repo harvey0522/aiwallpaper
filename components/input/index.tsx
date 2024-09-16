@@ -125,7 +125,7 @@ export default function ({ setWallpapers }: Props) {
       >
         <Input
           type="text"
-          placeholder="Wallpaper description"
+          placeholder="image description"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           onKeyDown={handleInputKeydown}

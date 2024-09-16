@@ -9,13 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    template: "%s by AI Wallpaper Generator | AI Wallpaper Shop",
-    default: "AI Wallpaper Generator | AI Wallpaper Shop",
+    template: "%s by FLUX AI IMAGE Generator | summernails.net",
+    default: "FLUX AI IMAGE Generator | summernails.net",
   },
   description:
-    "AI Wallpaper Shop is an AI Wallpaper Generator, used to generate beautiful wallpapers with AI.",
+    "FLUX AI used to generate beautiful image with AI.",
   keywords:
-    "AI Wallpaper, AI Wallpaper Shop, AI Wallpaper Generator, AI Wallpaper image",
+    "",
 };
 
 export default function RootLayout({
