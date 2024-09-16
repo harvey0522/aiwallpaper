@@ -10,10 +10,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: {
     template: "%s by FLUX AI IMAGE Generator | summernails.net",
-    default: "FLUX AI IMAGE Generator | summernails.net",
+    default: "Flux Ai Image Generator | summernails.net",
   },
   description:
-    "FLUX AI used to generate beautiful image with AI.",
+    "Flux AI used to generate beautiful image with AI.",
   keywords:
     "",
 };
